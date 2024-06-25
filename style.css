@@ -21,6 +21,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 10%;
 }
 
 .half width {
@@ -34,7 +35,7 @@ section {
 
 }
 
-.hireme-button {
+.button {
     text-decoration: none;
     background-color: orange;
     padding: 10px 40px;
@@ -45,7 +46,13 @@ section {
 
 }
 
-.top-banner {
+.intro {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
